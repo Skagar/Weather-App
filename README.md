@@ -37,20 +37,39 @@ JavaScript
 
 **📂 Project Structure**
 
-Weather-App/
-│── src/
-│   └── main/
-│       ├── java/
-│       │   └── com.cfs.weatherapp/
-│       │       ├── controller/
-│       │       ├── service/
-│       │       └── model/
-│       └── resources/
-│           └── application.properties
-│── pom.xml
-│── .gitignore
-│── mvnw
-│── README.md
+```Weather-App
+├── .mvn
+│   └── wrapper
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── cfs
+│   │   │           └── Weather_App
+│   │   │               ├── Controller
+│   │   │               │   └── WeatherController.java
+│   │   │               ├── service
+│   │   │               │   └── WeatherService.java
+│   │   │               ├── dto
+│   │   │               │   └── datatransferpackage
+│   │   │               │       ├── WeatherResponse.java
+│   │   │               │       ├── ForecastResponse.java
+│   │   │               │       └── DayWeather.java
+│   │   │               └── WeatherAppApplication.java
+│   │   └── resources
+│   │       └── application.properties
+│   └── test
+│       └── java
+│           └── com
+│               └── cfs
+│                   └── Weather_App
+├── .gitattributes
+├── .gitignore
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── README.md 
+```
 
 
 **⚙️ How It Works**
